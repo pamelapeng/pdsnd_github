@@ -86,7 +86,7 @@ def load_data(city, month, day):
     if month != 'all':
         df_month = (df['Start Time']).dt.month == MONTHS[month]
         df = df[df_month]
-    
+
     # Filter for day.
     if day != 'all':
         df_day = (df['Start Time']).dt.dayofweek == DAYS[day]
@@ -196,13 +196,13 @@ def main():
             raw_data = ask_raw_data()
             if raw_data:
                 print(df.iloc[i:i+5])
-
             else:
                 break
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
+	
 if __name__ == "__main__":
 	main()
 
