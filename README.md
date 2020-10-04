@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+October 3rd, 2020
 
 ### Project Title
-Replace the Project Title
+Bike Share Project
 
 ### Description
-Describe what your project is about and what it does
+This python script queries csv files about bike share usage.
+Another change.
+One more change.
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity Tutorial
